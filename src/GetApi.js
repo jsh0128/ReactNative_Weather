@@ -23,6 +23,7 @@ const GetApi = () => {
     ],
   });
   const [hadApi, setHadApi] = useState(true);
+  // useState는 한번 후 값이 들어감
 
   useEffect(() => {
     console.log("1");
